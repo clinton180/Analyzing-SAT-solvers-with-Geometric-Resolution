@@ -1,0 +1,38 @@
+MARK_FIXED lit=-7 level=0 trail=1
+MARK_FIXED lit=-1 level=0 trail=1
+ASSIGN kind=UNIT lit=-1 level=0 reason_id=0 trail=2
+MARK_FIXED lit=8 level=0 trail=3
+MARK_FIXED lit=2 level=0 trail=4
+MARK_FIXED lit=9 level=0 trail=4
+ASSIGN kind=UNIT lit=9 level=0 reason_id=0 trail=5
+ASSIGN kind=DECISION lit=18 level=1 reason_id=0 trail=6
+DECIDE level=1 lit=0 trail=6
+ASSIGN kind=DECISION lit=17 level=2 reason_id=0 trail=7
+DECIDE level=2 lit=0 trail=7
+ASSIGN kind=DECISION lit=16 level=3 reason_id=0 trail=8
+DECIDE level=3 lit=0 trail=8
+ASSIGN kind=DECISION lit=15 level=4 reason_id=0 trail=9
+DECIDE level=4 lit=0 trail=9
+ASSIGN kind=DECISION lit=14 level=5 reason_id=0 trail=10
+DECIDE level=5 lit=0 trail=10
+ASSIGN kind=IMPLIED lit=13 level=5 reason_id=257 trail=11
+CONFLICT type=long level=5 clause_id=310 propagated=10 trail=11
+CONFLICT_AFTER_PROP level=5 conflict=0x64c432b1ba50 trail=11
+ANALYZE_BEGIN level=5 conflict_id=310 trail=11 assigned=11
+UIP_FOUND uip=14 learned_init_size=1
+LEARNED_METRICS size=1 glue=0 level=5
+LEARNED_FINAL size=1
+LEARNED_LIT k=0 lit=-14
+BACKTRACK jump=0 actual_to=0
+ASSERT_ASSIGN lit=-14 by_clause_id=0
+MARK_FIXED lit=-14 level=0 trail=5
+ASSIGN kind=UNIT lit=-14 level=0 reason_id=0 trail=6
+AFTER_ANALYZE level=0 conflict=(nil)
+MARK_FIXED lit=-13 level=0 trail=6
+ASSIGN kind=UNIT lit=-13 level=0 reason_id=0 trail=7
+MARK_FIXED lit=15 level=0 trail=7
+ASSIGN kind=UNIT lit=15 level=0 reason_id=0 trail=8
+CONFLICT type=long level=0 clause_id=292 propagated=7 trail=8
+CONFLICT_AFTER_PROP level=0 conflict=0x64c432b1ad80 trail=8
+ANALYZE_BEGIN level=0 conflict_id=292 trail=8 assigned=8
+AFTER_ANALYZE level=0 conflict=0x64c432b1ad80

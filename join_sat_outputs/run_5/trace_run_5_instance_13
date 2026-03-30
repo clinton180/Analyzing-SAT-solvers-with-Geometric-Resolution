@@ -1,0 +1,17 @@
+MARK_FIXED lit=13 level=0 trail=1
+MARK_FIXED lit=7 level=0 trail=2
+MARK_FIXED lit=14 level=0 trail=2
+ASSIGN kind=UNIT lit=14 level=0 reason_id=0 trail=3
+MARK_FIXED lit=-8 level=0 trail=3
+ASSIGN kind=UNIT lit=-8 level=0 reason_id=0 trail=4
+MARK_FIXED lit=15 level=0 trail=4
+ASSIGN kind=UNIT lit=15 level=0 reason_id=0 trail=5
+MARK_FIXED lit=-9 level=0 trail=5
+ASSIGN kind=UNIT lit=-9 level=0 reason_id=0 trail=6
+MARK_FIXED lit=1 level=0 trail=6
+ASSIGN kind=UNIT lit=1 level=0 reason_id=0 trail=7
+MARK_FIXED lit=-16 level=0 trail=7
+ASSIGN kind=UNIT lit=-16 level=0 reason_id=0 trail=8
+MARK_FIXED lit=2 level=0 trail=8
+ASSIGN kind=UNIT lit=2 level=0 reason_id=0 trail=9
+CONFLICT type=long level=0 clause_id=70 propagated=7 trail=9

@@ -1,0 +1,48 @@
+MARK_FIXED lit=-13 level=0 trail=1
+MARK_FIXED lit=-1 level=0 trail=2
+MARK_FIXED lit=7 level=0 trail=3
+MARK_FIXED lit=-8 level=0 trail=3
+ASSIGN kind=UNIT lit=-8 level=0 reason_id=0 trail=4
+MARK_FIXED lit=2 level=0 trail=5
+MARK_FIXED lit=-9 level=0 trail=5
+ASSIGN kind=UNIT lit=-9 level=0 reason_id=0 trail=6
+MARK_FIXED lit=-3 level=0 trail=7
+MARK_FIXED lit=-10 level=0 trail=7
+ASSIGN kind=UNIT lit=-10 level=0 reason_id=0 trail=8
+MARK_FIXED lit=4 level=0 trail=8
+ASSIGN kind=UNIT lit=4 level=0 reason_id=0 trail=9
+MARK_FIXED lit=-11 level=0 trail=9
+ASSIGN kind=UNIT lit=-11 level=0 reason_id=0 trail=10
+MARK_FIXED lit=-5 level=0 trail=10
+ASSIGN kind=UNIT lit=-5 level=0 reason_id=0 trail=11
+MARK_FIXED lit=-12 level=0 trail=11
+ASSIGN kind=UNIT lit=-12 level=0 reason_id=0 trail=12
+MARK_FIXED lit=-6 level=0 trail=12
+ASSIGN kind=UNIT lit=-6 level=0 reason_id=0 trail=13
+ASSIGN kind=DECISION lit=18 level=1 reason_id=0 trail=14
+DECIDE level=1 lit=0 trail=14
+ASSIGN kind=DECISION lit=17 level=2 reason_id=0 trail=15
+DECIDE level=2 lit=0 trail=15
+ASSIGN kind=DECISION lit=16 level=3 reason_id=0 trail=16
+DECIDE level=3 lit=0 trail=16
+ASSIGN kind=DECISION lit=15 level=4 reason_id=0 trail=17
+DECIDE level=4 lit=0 trail=17
+ASSIGN kind=IMPLIED lit=14 level=4 reason_id=198 trail=18
+CONFLICT type=long level=4 clause_id=211 propagated=17 trail=18
+CONFLICT_AFTER_PROP level=4 conflict=0x60f07c0652e0 trail=18
+ANALYZE_BEGIN level=4 conflict_id=211 trail=18 assigned=18
+UIP_FOUND uip=15 learned_init_size=1
+LEARNED_METRICS size=1 glue=0 level=4
+LEARNED_FINAL size=1
+LEARNED_LIT k=0 lit=-15
+BACKTRACK jump=0 actual_to=0
+ASSERT_ASSIGN lit=-15 by_clause_id=0
+MARK_FIXED lit=-15 level=0 trail=13
+ASSIGN kind=UNIT lit=-15 level=0 reason_id=0 trail=14
+AFTER_ANALYZE level=0 conflict=(nil)
+MARK_FIXED lit=-14 level=0 trail=14
+ASSIGN kind=UNIT lit=-14 level=0 reason_id=0 trail=15
+CONFLICT type=long level=0 clause_id=261 propagated=14 trail=15
+CONFLICT_AFTER_PROP level=0 conflict=0x60f07c069be0 trail=15
+ANALYZE_BEGIN level=0 conflict_id=261 trail=15 assigned=15
+AFTER_ANALYZE level=0 conflict=0x60f07c069be0

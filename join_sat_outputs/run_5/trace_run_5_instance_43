@@ -1,0 +1,410 @@
+MARK_FIXED lit=-1 level=0 trail=1
+MARK_FIXED lit=-7 level=0 trail=2
+MARK_FIXED lit=13 level=0 trail=3
+ASSIGN kind=DECISION lit=18 level=1 reason_id=0 trail=4
+DECIDE level=1 lit=0 trail=4
+ASSIGN kind=DECISION lit=17 level=2 reason_id=0 trail=5
+DECIDE level=2 lit=0 trail=5
+ASSIGN kind=DECISION lit=16 level=3 reason_id=0 trail=6
+DECIDE level=3 lit=0 trail=6
+ASSIGN kind=DECISION lit=15 level=4 reason_id=0 trail=7
+DECIDE level=4 lit=0 trail=7
+ASSIGN kind=DECISION lit=14 level=5 reason_id=0 trail=8
+DECIDE level=5 lit=0 trail=8
+ASSIGN kind=IMPLIED lit=-8 level=5 reason_id=292 trail=9
+ASSIGN kind=IMPLIED lit=-9 level=5 reason_id=1 trail=10
+CONFLICT type=long level=5 clause_id=4 propagated=9 trail=10
+CONFLICT_AFTER_PROP level=5 conflict=0x5b8f108f2960 trail=10
+ANALYZE_BEGIN level=5 conflict_id=4 trail=10 assigned=10
+UIP_FOUND uip=14 learned_init_size=3
+LEARNED_METRICS size=3 glue=2 level=5
+LEARNED_FINAL size=3
+LEARNED_LIT k=0 lit=-15
+LEARNED_LIT k=1 lit=-16
+LEARNED_LIT k=2 lit=-14
+DRIVING_ID id=325 size=3
+BACKTRACK jump=4 actual_to=4
+ASSERT_ASSIGN lit=-14 by_clause_id=325
+ASSIGN kind=IMPLIED lit=-14 level=4 reason_id=325 trail=8
+AFTER_ANALYZE level=4 conflict=(nil)
+ASSIGN kind=IMPLIED lit=2 level=4 reason_id=6 trail=9
+ASSIGN kind=IMPLIED lit=8 level=4 reason_id=293 trail=10
+CONFLICT type=binary level=4 a=14 b=-2 other_val=-1 propagated=8 trail=10
+CONFLICT_AFTER_PROP level=4 conflict=0x5b8f108f9b30 trail=10
+ANALYZE_BEGIN level=4 conflict_id=311 trail=10 assigned=10
+UIP_FOUND uip=15 learned_init_size=2
+LEARNED_METRICS size=2 glue=1 level=4
+LEARNED_FINAL size=2
+LEARNED_LIT k=0 lit=-16
+LEARNED_LIT k=1 lit=-15
+DRIVING_ID id=326 size=2
+BACKTRACK jump=3 actual_to=3
+ASSERT_ASSIGN lit=-15 by_clause_id=326
+ASSIGN kind=IMPLIED lit=-15 level=3 reason_id=326 trail=7
+AFTER_ANALYZE level=3 conflict=(nil)
+ASSIGN kind=DECISION lit=-14 level=4 reason_id=0 trail=8
+DECIDE level=4 lit=0 trail=8
+ASSIGN kind=IMPLIED lit=-2 level=4 reason_id=311 trail=9
+ASSIGN kind=IMPLIED lit=-3 level=4 reason_id=309 trail=10
+ASSIGN kind=IMPLIED lit=-4 level=4 reason_id=206 trail=11
+ASSIGN kind=IMPLIED lit=-5 level=4 reason_id=248 trail=12
+CONFLICT type=long level=4 clause_id=318 propagated=11 trail=12
+CONFLICT_AFTER_PROP level=4 conflict=0x5b8f108f9d00 trail=12
+ANALYZE_BEGIN level=4 conflict_id=318 trail=12 assigned=12
+UIP_FOUND uip=-14 learned_init_size=5
+LEARNED_METRICS size=5 glue=3 level=4
+LEARNED_FINAL size=5
+LEARNED_LIT k=0 lit=15
+LEARNED_LIT k=1 lit=-16
+LEARNED_LIT k=2 lit=-17
+LEARNED_LIT k=3 lit=-18
+LEARNED_LIT k=4 lit=14
+DRIVING_ID id=327 size=5
+BACKTRACK jump=3 actual_to=3
+ASSERT_ASSIGN lit=14 by_clause_id=327
+ASSIGN kind=IMPLIED lit=14 level=3 reason_id=327 trail=8
+AFTER_ANALYZE level=3 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-8 level=3 reason_id=292 trail=9
+ASSIGN kind=DECISION lit=-2 level=4 reason_id=0 trail=10
+DECIDE level=4 lit=0 trail=10
+ASSIGN kind=IMPLIED lit=3 level=4 reason_id=241 trail=11
+ASSIGN kind=IMPLIED lit=-9 level=4 reason_id=217 trail=12
+ASSIGN kind=IMPLIED lit=4 level=4 reason_id=312 trail=13
+ASSIGN kind=IMPLIED lit=10 level=4 reason_id=246 trail=14
+CONFLICT type=long level=4 clause_id=315 propagated=12 trail=14
+CONFLICT_AFTER_PROP level=4 conflict=0x5b8f108f9c30 trail=14
+ANALYZE_BEGIN level=4 conflict_id=315 trail=14 assigned=14
+UIP_FOUND uip=-9 learned_init_size=6
+LEARNED_METRICS size=6 glue=2 level=4
+LEARNED_FINAL size=6
+LEARNED_LIT k=0 lit=8
+LEARNED_LIT k=1 lit=-14
+LEARNED_LIT k=2 lit=15
+LEARNED_LIT k=3 lit=-16
+LEARNED_LIT k=4 lit=-17
+LEARNED_LIT k=5 lit=9
+DRIVING_ID id=328 size=6
+BACKTRACK jump=3 actual_to=3
+ASSERT_ASSIGN lit=9 by_clause_id=328
+ASSIGN kind=IMPLIED lit=9 level=3 reason_id=328 trail=10
+AFTER_ANALYZE level=3 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-10 level=3 reason_id=236 trail=11
+ASSIGN kind=IMPLIED lit=11 level=3 reason_id=232 trail=12
+CONFLICT type=long level=3 clause_id=244 propagated=11 trail=12
+CONFLICT_AFTER_PROP level=3 conflict=0x5b8f108f6a70 trail=12
+ANALYZE_BEGIN level=3 conflict_id=244 trail=12 assigned=12
+UIP_FOUND uip=16 learned_init_size=3
+LEARNED_METRICS size=3 glue=2 level=3
+LEARNED_FINAL size=3
+LEARNED_LIT k=0 lit=-17
+LEARNED_LIT k=1 lit=-18
+LEARNED_LIT k=2 lit=-16
+DRIVING_ID id=329 size=3
+BACKTRACK jump=2 actual_to=2
+ASSERT_ASSIGN lit=-16 by_clause_id=329
+ASSIGN kind=IMPLIED lit=-16 level=2 reason_id=329 trail=6
+AFTER_ANALYZE level=2 conflict=(nil)
+ASSIGN kind=DECISION lit=-15 level=3 reason_id=0 trail=7
+DECIDE level=3 lit=0 trail=7
+ASSIGN kind=DECISION lit=14 level=4 reason_id=0 trail=8
+DECIDE level=4 lit=0 trail=8
+ASSIGN kind=IMPLIED lit=-8 level=4 reason_id=292 trail=9
+ASSIGN kind=IMPLIED lit=-9 level=4 reason_id=257 trail=10
+CONFLICT type=long level=4 clause_id=281 propagated=9 trail=10
+CONFLICT_AFTER_PROP level=4 conflict=0x5b8f108f8330 trail=10
+ANALYZE_BEGIN level=4 conflict_id=281 trail=10 assigned=10
+UIP_FOUND uip=14 learned_init_size=3
+LEARNED_METRICS size=3 glue=2 level=4
+LEARNED_FINAL size=3
+LEARNED_LIT k=0 lit=15
+LEARNED_LIT k=1 lit=16
+LEARNED_LIT k=2 lit=-14
+DRIVING_ID id=330 size=3
+BACKTRACK jump=3 actual_to=3
+ASSERT_ASSIGN lit=-14 by_clause_id=330
+ASSIGN kind=IMPLIED lit=-14 level=3 reason_id=330 trail=8
+AFTER_ANALYZE level=3 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-2 level=3 reason_id=311 trail=9
+ASSIGN kind=IMPLIED lit=3 level=3 reason_id=7 trail=10
+ASSIGN kind=IMPLIED lit=4 level=3 reason_id=2 trail=11
+CONFLICT type=long level=3 clause_id=276 propagated=10 trail=11
+CONFLICT_AFTER_PROP level=3 conflict=0x5b8f108f81e0 trail=11
+ANALYZE_BEGIN level=3 conflict_id=276 trail=11 assigned=11
+UIP_FOUND uip=-15 learned_init_size=3
+LEARNED_METRICS size=3 glue=1 level=3
+LEARNED_FINAL size=3
+LEARNED_LIT k=0 lit=16
+LEARNED_LIT k=1 lit=-17
+LEARNED_LIT k=2 lit=15
+DRIVING_ID id=331 size=3
+BACKTRACK jump=2 actual_to=2
+ASSERT_ASSIGN lit=15 by_clause_id=331
+ASSIGN kind=IMPLIED lit=15 level=2 reason_id=331 trail=7
+AFTER_ANALYZE level=2 conflict=(nil)
+ASSIGN kind=DECISION lit=-14 level=3 reason_id=0 trail=8
+DECIDE level=3 lit=0 trail=8
+ASSIGN kind=IMPLIED lit=2 level=3 reason_id=6 trail=9
+ASSIGN kind=IMPLIED lit=8 level=3 reason_id=293 trail=10
+CONFLICT type=binary level=3 a=14 b=-2 other_val=-1 propagated=8 trail=10
+CONFLICT_AFTER_PROP level=3 conflict=0x5b8f108f9b30 trail=10
+ANALYZE_BEGIN level=3 conflict_id=311 trail=10 assigned=10
+UIP_FOUND uip=-14 learned_init_size=2
+LEARNED_METRICS size=2 glue=1 level=3
+LEARNED_FINAL size=2
+LEARNED_LIT k=0 lit=-15
+LEARNED_LIT k=1 lit=14
+DRIVING_ID id=332 size=2
+BACKTRACK jump=2 actual_to=2
+ASSERT_ASSIGN lit=14 by_clause_id=332
+ASSIGN kind=IMPLIED lit=14 level=2 reason_id=332 trail=8
+AFTER_ANALYZE level=2 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-8 level=2 reason_id=292 trail=9
+ASSIGN kind=IMPLIED lit=-9 level=2 reason_id=1 trail=10
+ASSIGN kind=IMPLIED lit=10 level=2 reason_id=253 trail=11
+ASSIGN kind=IMPLIED lit=-2 level=2 reason_id=245 trail=12
+ASSIGN kind=IMPLIED lit=-11 level=2 reason_id=323 trail=13
+ASSIGN kind=IMPLIED lit=3 level=2 reason_id=241 trail=14
+CONFLICT type=long level=2 clause_id=300 propagated=12 trail=14
+CONFLICT_AFTER_PROP level=2 conflict=0x5b8f108f9450 trail=14
+ANALYZE_BEGIN level=2 conflict_id=300 trail=14 assigned=14
+UIP_FOUND uip=17 learned_init_size=2
+LEARNED_METRICS size=2 glue=1 level=2
+LEARNED_FINAL size=2
+LEARNED_LIT k=0 lit=-18
+LEARNED_LIT k=1 lit=-17
+DRIVING_ID id=333 size=2
+BACKTRACK jump=1 actual_to=1
+ASSERT_ASSIGN lit=-17 by_clause_id=333
+ASSIGN kind=IMPLIED lit=-17 level=1 reason_id=333 trail=5
+AFTER_ANALYZE level=1 conflict=(nil)
+ASSIGN kind=DECISION lit=-16 level=2 reason_id=0 trail=6
+DECIDE level=2 lit=0 trail=6
+ASSIGN kind=DECISION lit=15 level=3 reason_id=0 trail=7
+DECIDE level=3 lit=0 trail=7
+ASSIGN kind=IMPLIED lit=14 level=3 reason_id=332 trail=8
+ASSIGN kind=IMPLIED lit=-8 level=3 reason_id=292 trail=9
+ASSIGN kind=IMPLIED lit=-9 level=3 reason_id=1 trail=10
+ASSIGN kind=IMPLIED lit=-10 level=3 reason_id=27 trail=11
+CONFLICT type=long level=3 clause_id=253 propagated=10 trail=11
+CONFLICT_AFTER_PROP level=3 conflict=0x5b8f108f6ce0 trail=11
+ANALYZE_BEGIN level=3 conflict_id=253 trail=11 assigned=11
+UIP_FOUND uip=15 learned_init_size=3
+LEARNED_METRICS size=3 glue=2 level=3
+LEARNED_FINAL size=3
+LEARNED_LIT k=0 lit=16
+LEARNED_LIT k=1 lit=17
+LEARNED_LIT k=2 lit=-15
+DRIVING_ID id=334 size=3
+BACKTRACK jump=2 actual_to=2
+ASSERT_ASSIGN lit=-15 by_clause_id=334
+ASSIGN kind=IMPLIED lit=-15 level=2 reason_id=334 trail=7
+AFTER_ANALYZE level=2 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-14 level=2 reason_id=330 trail=8
+ASSIGN kind=IMPLIED lit=-2 level=2 reason_id=311 trail=9
+ASSIGN kind=IMPLIED lit=3 level=2 reason_id=7 trail=10
+ASSIGN kind=IMPLIED lit=-4 level=2 reason_id=276 trail=11
+ASSIGN kind=IMPLIED lit=-5 level=2 reason_id=316 trail=12
+ASSIGN kind=IMPLIED lit=6 level=2 reason_id=209 trail=13
+ASSIGN kind=DECISION lit=-9 level=3 reason_id=0 trail=14
+DECIDE level=3 lit=0 trail=14
+ASSIGN kind=IMPLIED lit=8 level=3 reason_id=223 trail=15
+CONFLICT type=long level=3 clause_id=252 propagated=14 trail=15
+CONFLICT_AFTER_PROP level=3 conflict=0x5b8f108f6cb0 trail=15
+ANALYZE_BEGIN level=3 conflict_id=252 trail=15 assigned=15
+UIP_FOUND uip=-9 learned_init_size=3
+LEARNED_METRICS size=3 glue=1 level=3
+LEARNED_FINAL size=3
+LEARNED_LIT k=0 lit=14
+LEARNED_LIT k=1 lit=15
+LEARNED_LIT k=2 lit=9
+DRIVING_ID id=335 size=3
+BACKTRACK jump=2 actual_to=2
+ASSERT_ASSIGN lit=9 by_clause_id=335
+ASSIGN kind=IMPLIED lit=9 level=2 reason_id=335 trail=14
+AFTER_ANALYZE level=2 conflict=(nil)
+ASSIGN kind=IMPLIED lit=8 level=2 reason_id=296 trail=15
+ASSIGN kind=IMPLIED lit=10 level=2 reason_id=46 trail=16
+CONFLICT type=long level=2 clause_id=302 propagated=15 trail=16
+CONFLICT_AFTER_PROP level=2 conflict=0x5b8f108f94d0 trail=16
+ANALYZE_BEGIN level=2 conflict_id=302 trail=16 assigned=16
+UIP_FOUND uip=-16 learned_init_size=2
+LEARNED_METRICS size=2 glue=1 level=2
+LEARNED_FINAL size=2
+LEARNED_LIT k=0 lit=17
+LEARNED_LIT k=1 lit=16
+DRIVING_ID id=336 size=2
+BACKTRACK jump=1 actual_to=1
+ASSERT_ASSIGN lit=16 by_clause_id=336
+ASSIGN kind=IMPLIED lit=16 level=1 reason_id=336 trail=6
+AFTER_ANALYZE level=1 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-15 level=1 reason_id=326 trail=7
+ASSIGN kind=DECISION lit=-14 level=2 reason_id=0 trail=8
+DECIDE level=2 lit=0 trail=8
+ASSIGN kind=IMPLIED lit=-2 level=2 reason_id=311 trail=9
+ASSIGN kind=IMPLIED lit=9 level=2 reason_id=335 trail=10
+ASSIGN kind=IMPLIED lit=-3 level=2 reason_id=309 trail=11
+ASSIGN kind=IMPLIED lit=-8 level=2 reason_id=224 trail=12
+ASSIGN kind=IMPLIED lit=-10 level=2 reason_id=304 trail=13
+ASSIGN kind=IMPLIED lit=-4 level=2 reason_id=206 trail=14
+CONFLICT type=long level=2 clause_id=266 propagated=11 trail=14
+CONFLICT_AFTER_PROP level=2 conflict=0x5b8f108f76b0 trail=14
+ANALYZE_BEGIN level=2 conflict_id=266 trail=14 assigned=14
+UIP_FOUND uip=-14 learned_init_size=4
+LEARNED_METRICS size=4 glue=1 level=2
+LEARNED_FINAL size=4
+LEARNED_LIT k=0 lit=15
+LEARNED_LIT k=1 lit=-16
+LEARNED_LIT k=2 lit=17
+LEARNED_LIT k=3 lit=14
+DRIVING_ID id=337 size=4
+BACKTRACK jump=1 actual_to=1
+ASSERT_ASSIGN lit=14 by_clause_id=337
+ASSIGN kind=IMPLIED lit=14 level=1 reason_id=337 trail=8
+AFTER_ANALYZE level=1 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-8 level=1 reason_id=292 trail=9
+ASSIGN kind=DECISION lit=9 level=2 reason_id=0 trail=10
+DECIDE level=2 lit=0 trail=10
+ASSIGN kind=IMPLIED lit=-10 level=2 reason_id=236 trail=11
+ASSIGN kind=IMPLIED lit=-11 level=2 reason_id=33 trail=12
+CONFLICT type=long level=2 clause_id=38 propagated=11 trail=12
+CONFLICT_AFTER_PROP level=2 conflict=0x5b8f108f50a0 trail=12
+ANALYZE_BEGIN level=2 conflict_id=38 trail=12 assigned=12
+UIP_FOUND uip=9 learned_init_size=7
+LEARNED_METRICS size=7 glue=1 level=2
+LEARNED_FINAL size=7
+LEARNED_LIT k=0 lit=8
+LEARNED_LIT k=1 lit=-14
+LEARNED_LIT k=2 lit=15
+LEARNED_LIT k=3 lit=-16
+LEARNED_LIT k=4 lit=17
+LEARNED_LIT k=5 lit=-18
+LEARNED_LIT k=6 lit=-9
+DRIVING_ID id=338 size=7
+BACKTRACK jump=1 actual_to=1
+ASSERT_ASSIGN lit=-9 by_clause_id=338
+ASSIGN kind=IMPLIED lit=-9 level=1 reason_id=338 trail=10
+AFTER_ANALYZE level=1 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-10 level=1 reason_id=315 trail=11
+ASSIGN kind=IMPLIED lit=-2 level=1 reason_id=245 trail=12
+ASSIGN kind=IMPLIED lit=11 level=1 reason_id=237 trail=13
+CONFLICT type=long level=1 clause_id=297 propagated=11 trail=13
+CONFLICT_AFTER_PROP level=1 conflict=0x5b8f108f8f60 trail=13
+ANALYZE_BEGIN level=1 conflict_id=297 trail=13 assigned=13
+UIP_FOUND uip=18 learned_init_size=1
+LEARNED_METRICS size=1 glue=0 level=1
+LEARNED_FINAL size=1
+LEARNED_LIT k=0 lit=-18
+BACKTRACK jump=0 actual_to=0
+ASSERT_ASSIGN lit=-18 by_clause_id=0
+MARK_FIXED lit=-18 level=0 trail=3
+ASSIGN kind=UNIT lit=-18 level=0 reason_id=0 trail=4
+AFTER_ANALYZE level=0 conflict=(nil)
+ASSIGN kind=DECISION lit=16 level=1 reason_id=0 trail=5
+DECIDE level=1 lit=0 trail=5
+ASSIGN kind=IMPLIED lit=-15 level=1 reason_id=326 trail=6
+ASSIGN kind=DECISION lit=14 level=2 reason_id=0 trail=7
+DECIDE level=2 lit=0 trail=7
+ASSIGN kind=IMPLIED lit=-8 level=2 reason_id=292 trail=8
+ASSIGN kind=DECISION lit=-17 level=3 reason_id=0 trail=9
+DECIDE level=3 lit=0 trail=9
+ASSIGN kind=DECISION lit=-9 level=4 reason_id=0 trail=10
+DECIDE level=4 lit=0 trail=10
+ASSIGN kind=IMPLIED lit=-10 level=4 reason_id=315 trail=11
+ASSIGN kind=IMPLIED lit=-2 level=4 reason_id=245 trail=12
+ASSIGN kind=IMPLIED lit=11 level=4 reason_id=237 trail=13
+ASSIGN kind=IMPLIED lit=3 level=4 reason_id=241 trail=14
+ASSIGN kind=IMPLIED lit=-12 level=4 reason_id=242 trail=15
+ASSIGN kind=IMPLIED lit=-4 level=4 reason_id=286 trail=16
+CONFLICT type=long level=4 clause_id=312 propagated=14 trail=16
+CONFLICT_AFTER_PROP level=4 conflict=0x5b8f108f9b60 trail=16
+ANALYZE_BEGIN level=4 conflict_id=312 trail=16 assigned=16
+UIP_FOUND uip=-2 learned_init_size=5
+LEARNED_METRICS size=5 glue=3 level=4
+LEARNED_FINAL size=5
+LEARNED_LIT k=0 lit=-14
+LEARNED_LIT k=1 lit=15
+LEARNED_LIT k=2 lit=-16
+LEARNED_LIT k=3 lit=17
+LEARNED_LIT k=4 lit=2
+DRIVING_ID id=340 size=5
+BACKTRACK jump=3 actual_to=3
+ASSERT_ASSIGN lit=2 by_clause_id=340
+ASSIGN kind=IMPLIED lit=2 level=3 reason_id=340 trail=10
+AFTER_ANALYZE level=3 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-3 level=3 reason_id=210 trail=11
+ASSIGN kind=IMPLIED lit=9 level=3 reason_id=245 trail=12
+ASSIGN kind=IMPLIED lit=10 level=3 reason_id=259 trail=13
+ASSIGN kind=IMPLIED lit=-4 level=3 reason_id=279 trail=14
+CONFLICT type=long level=3 clause_id=303 propagated=11 trail=14
+CONFLICT_AFTER_PROP level=3 conflict=0x5b8f108f9510 trail=14
+ANALYZE_BEGIN level=3 conflict_id=303 trail=14 assigned=14
+UIP_FOUND uip=2 learned_init_size=5
+LEARNED_METRICS size=5 glue=2 level=3
+LEARNED_FINAL size=5
+LEARNED_LIT k=0 lit=-14
+LEARNED_LIT k=1 lit=15
+LEARNED_LIT k=2 lit=-16
+LEARNED_LIT k=3 lit=8
+LEARNED_LIT k=4 lit=-2
+DRIVING_ID id=341 size=5
+BACKTRACK jump=2 actual_to=2
+ASSERT_ASSIGN lit=-2 by_clause_id=341
+ASSIGN kind=IMPLIED lit=-2 level=2 reason_id=341 trail=9
+AFTER_ANALYZE level=2 conflict=(nil)
+ASSIGN kind=IMPLIED lit=3 level=2 reason_id=241 trail=10
+ASSIGN kind=IMPLIED lit=17 level=2 reason_id=340 trail=11
+ASSIGN kind=IMPLIED lit=4 level=2 reason_id=312 trail=12
+ASSIGN kind=IMPLIED lit=-9 level=2 reason_id=217 trail=13
+CONFLICT type=long level=2 clause_id=328 propagated=11 trail=13
+CONFLICT_AFTER_PROP level=2 conflict=0x5b8f108f06d0 trail=13
+ANALYZE_BEGIN level=2 conflict_id=328 trail=13 assigned=13
+UIP_FOUND uip=14 learned_init_size=3
+LEARNED_METRICS size=3 glue=1 level=2
+LEARNED_FINAL size=3
+LEARNED_LIT k=0 lit=15
+LEARNED_LIT k=1 lit=-16
+LEARNED_LIT k=2 lit=-14
+DRIVING_ID id=342 size=3
+BACKTRACK jump=1 actual_to=1
+ASSERT_ASSIGN lit=-14 by_clause_id=342
+ASSIGN kind=IMPLIED lit=-14 level=1 reason_id=342 trail=7
+AFTER_ANALYZE level=1 conflict=(nil)
+ASSIGN kind=IMPLIED lit=-2 level=1 reason_id=311 trail=8
+ASSIGN kind=IMPLIED lit=9 level=1 reason_id=335 trail=9
+ASSIGN kind=IMPLIED lit=17 level=1 reason_id=337 trail=10
+ASSIGN kind=IMPLIED lit=-3 level=1 reason_id=309 trail=11
+ASSIGN kind=IMPLIED lit=-8 level=1 reason_id=224 trail=12
+ASSIGN kind=IMPLIED lit=-4 level=1 reason_id=206 trail=13
+ASSIGN kind=IMPLIED lit=-10 level=1 reason_id=228 trail=14
+CONFLICT type=long level=1 clause_id=266 propagated=12 trail=14
+CONFLICT_AFTER_PROP level=1 conflict=0x5b8f108f76b0 trail=14
+ANALYZE_BEGIN level=1 conflict_id=266 trail=14 assigned=14
+UIP_FOUND uip=16 learned_init_size=1
+LEARNED_METRICS size=1 glue=0 level=1
+LEARNED_FINAL size=1
+LEARNED_LIT k=0 lit=-16
+BACKTRACK jump=0 actual_to=0
+ASSERT_ASSIGN lit=-16 by_clause_id=0
+MARK_FIXED lit=-16 level=0 trail=4
+ASSIGN kind=UNIT lit=-16 level=0 reason_id=0 trail=5
+AFTER_ANALYZE level=0 conflict=(nil)
+MARK_FIXED lit=17 level=0 trail=5
+ASSIGN kind=UNIT lit=17 level=0 reason_id=0 trail=6
+MARK_FIXED lit=15 level=0 trail=6
+ASSIGN kind=UNIT lit=15 level=0 reason_id=0 trail=7
+MARK_FIXED lit=14 level=0 trail=7
+ASSIGN kind=UNIT lit=14 level=0 reason_id=0 trail=8
+MARK_FIXED lit=-8 level=0 trail=8
+ASSIGN kind=UNIT lit=-8 level=0 reason_id=0 trail=9
+MARK_FIXED lit=-9 level=0 trail=9
+ASSIGN kind=UNIT lit=-9 level=0 reason_id=0 trail=10
+MARK_FIXED lit=10 level=0 trail=10
+ASSIGN kind=UNIT lit=10 level=0 reason_id=0 trail=11
+MARK_FIXED lit=-2 level=0 trail=11
+ASSIGN kind=UNIT lit=-2 level=0 reason_id=0 trail=12
+MARK_FIXED lit=11 level=0 trail=12
+ASSIGN kind=UNIT lit=11 level=0 reason_id=0 trail=13
+CONFLICT type=long level=0 clause_id=323 propagated=11 trail=13
+CONFLICT_AFTER_PROP level=0 conflict=0x5b8f108f9e60 trail=13
+ANALYZE_BEGIN level=0 conflict_id=323 trail=13 assigned=13
+AFTER_ANALYZE level=0 conflict=0x5b8f108f9e60
